@@ -1,13 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.itsagm</groupId>
-    <artifactId>tutprialapi</artifactId>
+    <artifactId>tutorialapi</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-
+    <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <modules>
+        <module>tutorialapi-rest</module>
+        <module>tutorialapi-server</module>
+    </modules>
     <build>
         <pluginManagement>
             <plugins>
